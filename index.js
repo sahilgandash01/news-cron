@@ -32,7 +32,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // Fetch news and store in MongoDB
 const fetchAndStoreNews = async () => {
-  const categories = ['sports', 'technology', 'business'];
+  const categories = ['Health', 'Science', 'Entertainment','Politics'];
   let totalCreditsUsed = 0;
   const maxCredits = 200;
 
